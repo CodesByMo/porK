@@ -47,7 +47,7 @@ This page was built with the following NPM Modules, and technologies:
 
 
 ### For comments/ concerns contact the project authors: 
-[armjim14](https://github.com/armjim14) 
-[ldsc617](https://github.com/ldsc617)
-[CodesByMo](https://github.com/CodesByMo/porK)
-[Cmoconnor0823](https://github.com/Cmoconnor0823) 
+- [armjim14](https://github.com/armjim14) 
+- [ldsc617](https://github.com/ldsc617)
+- [CodesByMo](https://github.com/CodesByMo/porK)
+- [Cmoconnor0823](https://github.com/Cmoconnor0823) 
