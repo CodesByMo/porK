@@ -1,30 +1,26 @@
-# group-project2
-Group Project2
-
-
-<h1>Description</h1>
+# porK?
 This project is a simple site designed to allow User's to ask and answer questions of other user's. 
 
 
-<h2>Set up</h2>
+## Set up
 In order to run this application you will need to first clone down the code, and then run the npm install command in the file destination in console log. This should install the npm 
 
 To run the application locally  please follow the steps below:
-** or visit [This link will open the live page on Heroku](https://warm-tor-57993.herokuapp.com/login)
+*or visit [This link to open the live page on Heroku](https://warm-tor-57993.herokuapp.com/login)*
 
 
-* clone into the repo using this link:https://github.com/ldsc617/group-project2.git 
-* cd group-project2
+* clone into the repo using this link: https://github.com/CodesByMo/porK
+* cd porK
 * npm install
 * node server.js 
 
 
-<h3>Using the Site!</h3>
-When the application is loaded you will be taken to the Log-in page. From here there are two options, you can either log in or click on the link on the page to create an account. Once you have created an account and have logged in, you will be taken to the Home page where the User will be allowed to Post a new Question, See comments on Questions that have already been asked, and have the option to click to reveal other User's questions. If any specific question is clicken on, the user will be taken to a comment's page where other User's comments can be viewed on a question and a new comment/answer can be added.
+### Using the Site!
+When the application is loaded you will be taken to the login page. From here there are two options, you can either login or create an account. Once you have created an account and have logged in, you will be taken to the home page where the user will be allowed to post a new question, see comments on questions that have already been asked, and have the option to click to reveal other user's questions. If any specific question is clicken on, the user will be taken to a comment's page where other user's comments can be viewed on a question and a new comment/answer can be added.
 
 
 
-<h2>Technology</h2>
+### Technology
 This page was built with the following NPM Modules, and technologies:
 
 
@@ -50,12 +46,8 @@ This page was built with the following NPM Modules, and technologies:
 
 
 
-For comments/ concerns Contact the project 
-Authors: 
-armjim14 
-ldsc617
-CodesByMo
-Cmoconnor0823
-
-
-At: 
+### For comments/ concerns contact the project authors: 
+[armjim14](https://github.com/armjim14) 
+[ldsc617](https://github.com/ldsc617)
+[CodesByMo](https://github.com/CodesByMo/porK)
+[Cmoconnor0823](https://github.com/Cmoconnor0823) 
