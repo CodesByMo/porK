@@ -9,13 +9,13 @@ var db = require("../models");
 
 function session(app) {
   // authenticating the user
-  app.post("/compare/users", function(req, res) {
+  app.post("/compare/users", function (req, res) {
     // var { username, password } = req.body;
     var username = req.body.username;
     var password = req.body.password;
 
-    db.Users.findAll({}).then(function(data) {
-      var userID = data.find(function(x) {
+    db.Users.findAll({}).then(function (data) {
+      var userID = data.find(function (x) {
         // Uname and Upassword might be changed due to table structure
         if (username === x.usernameX && password === x.password1X) {
           return x;
@@ -42,29 +42,29 @@ function session(app) {
   });
 
   // new user making a account
-  app.post("/create/account", function(req, res) {
+  app.post("/create/account", function (req, res) {
     console.log(req.body);
     // var { name, username, cat, password1, password2 } = req.body;
     var name = req.body.name;
     var username = req.body.username;
-    var cat = req.body.cat;
+    // var cat = req.body.cat;
     var password1 = req.body.password1;
     var password2 = req.body.password2;
     // were all the inputs entered
-    if ((name, username, cat, password1, password2)) {
+    if ((name, username, password1, password2)) {
       // do both paswords match
       if (password1 === password2) {
-        if (cat === "0") {
-          req.flash("err", "You have to select a category");
-          return res.redirect("/register");
-        }
+        // if (cat === "0") {
+        //   req.flash("err", "You have to select a category");
+        //   return res.redirect("/register");
+        // }
 
         db.Users.create({
           nameX: name,
           usernameX: username,
           password1X: password1,
-          category: cat
-        }).then(function(data) {
+          category: "1"
+        }).then(function (data) {
           console.log(data + " added");
           return res.redirect("/login");
         });
@@ -80,13 +80,13 @@ function session(app) {
   });
 
   // since the session holds the user id we will send that unique number to recieve it back to send the proper information
-  app.get("/get/user", function(req, res) {
+  app.get("/get/user", function (req, res) {
     return res.json(req.session.user);
   });
 
   // destroying the session when the user logs out
-  app.post("/logout/user", function(req, res) {
-    req.session.destroy(function(err) {
+  app.post("/logout/user", function (req, res) {
+    req.session.destroy(function (err) {
       if (err) {
         return res.redirect("/");
       } else {
@@ -96,12 +96,12 @@ function session(app) {
   });
 
   // for displaying any errors when creating a account
-  app.get("/check/errors", function(req, res) {
+  app.get("/check/errors", function (req, res) {
     res.send(req.flash("err"));
   });
 
   // for displaying any errors when a user trying to login
-  app.get("/login/errors", function(req, res) {
+  app.get("/login/errors", function (req, res) {
     res.send(req.flash("err2"));
   });
 }
