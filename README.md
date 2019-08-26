@@ -1,4 +1,6 @@
-# porK?
+# ¿porK?
+¿Por qué? – “Why”
+*(It's a play on words!)*
 This project is a simple site designed to allow User's to ask and answer questions of other user's. 
 
 
@@ -6,7 +8,7 @@ This project is a simple site designed to allow User's to ask and answer questio
 In order to run this application you will need to first clone down the code, and then run the npm install command in the file destination in console log. This should install the npm 
 
 To run the application locally  please follow the steps below:
-*or visit [This link to open the live page on Heroku](https://warm-tor-57993.herokuapp.com/login)*
+*[or visit this link to open the live page on Heroku](https://pork-answers.herokuapp.com)*
 
 
 * clone into the repo using this link: https://github.com/CodesByMo/porK
