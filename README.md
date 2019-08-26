@@ -43,6 +43,10 @@ This page was built with the following NPM Modules, and technologies:
 
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
+* [Bootstrap](https://getbootstrap.com/)
+
+* [Photoshop](https://www.adobe.com/products/photoshop.html)
+
 
 
 
