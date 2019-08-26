@@ -1,6 +1,6 @@
 # ¿porK?  
 ¿Por qué? – “Why”  
-*(It's a play on words!)*
+*(It's a play on words!)*  
 This project is a simple site designed to allow User's to ask and answer questions of other user's. 
 
 
