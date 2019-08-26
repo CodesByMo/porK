@@ -30,8 +30,6 @@ This page was built with the following NPM Modules, and technologies:
 
 * [path](https://www.npmjs.com/package/path)
 
-* []()
-
 * [MySql](https://www.mysql.com/)
 
 * [Git Bash](https://gitforwindows.org/)
