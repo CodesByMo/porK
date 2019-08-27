@@ -29,8 +29,6 @@ This page was built with the following NPM Modules, and technologies:
 
 * [express](https://www.npmjs.com/package/express)
 
-* [D3](https://d3js.org/)
-
 * [path](https://www.npmjs.com/package/path)
 
 * [MySql](https://www.mysql.com/)
@@ -46,6 +44,9 @@ This page was built with the following NPM Modules, and technologies:
 * [Bootstrap](https://getbootstrap.com/)
 
 * [Photoshop](https://www.adobe.com/products/photoshop.html)
+* [D3](https://d3js.org/)
+
+![](https://i.gyazo.com/80c2ea4c51f9162bcc54feea97931573.gif)
 
 
 
